@@ -42,6 +42,7 @@ pm2.yml
 tmpclaude*
 CLAUDE.md
 nul
+.serena/
 
 # debug
 npm-debug.log*
@@ -63,3 +64,5 @@ yarn-error.log*
 
 # internal notes
 /soc2.md
+.vercel
+.env*
