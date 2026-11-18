@@ -59,7 +59,7 @@ export function PixelSelect({
   return (
     <Select
       {...props}
-      value={pixelId}
+      value={pixelId ?? null}
       isLoading={isLoading}
       allowSearch={true}
       searchValue={search}

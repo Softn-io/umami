@@ -59,7 +59,7 @@ export function LinkSelect({
   return (
     <Select
       {...props}
-      value={linkId}
+      value={linkId ?? null}
       isLoading={isLoading}
       allowSearch={true}
       searchValue={search}

@@ -27,7 +27,7 @@ export function WebsiteAddForm({
   };
 
   return (
-    <Form onSubmit={handleSubmit} error={error?.message}>
+    <Form onSubmit={handleSubmit} error={error?.message} defaultValues={{ name: '', domain: '' }}>
       <FormField
         label={t(labels.name)}
         data-test="input-name"
