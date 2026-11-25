@@ -66,3 +66,4 @@ yarn-error.log*
 /soc2.md
 .vercel
 .env*
+/supabase/
